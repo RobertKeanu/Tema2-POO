@@ -84,7 +84,7 @@ public:      //constructori
         else
             this->valid = false;
     }
-    ~Patrat()
+    virtual ~Patrat()
     {
         Punct punct;
         this->stanga_jos = punct;
